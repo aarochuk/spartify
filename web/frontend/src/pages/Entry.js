@@ -1,21 +1,14 @@
 import React from "react";
-import "./App.css";
-import SongCard from "./SongCard";
-import play from "./images/play-store.png";
+import "./Entry.css";
+import Header from "../components/Header";
+import SongCard from "../components/SongCard"
+import play from "../images/play-store.png";
+import Footer from "../components/Footer";
 
 export default function App() {
   return (
     <div className="bodyHolder">
-      <div className="header">
-        <div className="header-text">
-          <h1>spartify</h1>
-          <p>party democracy</p>
-        </div>
-        <div className="header-button">
-          <button>Sign Up</button>
-          <button>Log in</button>
-        </div>
-      </div>
+      <Header color="#FBFADA"/>
       <div className="info">
         <div className="info-text">
           <h1>Democratising Party Music</h1>
@@ -36,19 +29,7 @@ export default function App() {
           <SongCard title="passionfruit" artist="Drake" genre="Hip-Hop" />
         </div>
       </div>
-      <div className="footer">
-        <p>
-          &copy; Made by{" "}
-          <a
-            href="https://andrewarochukwu.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            andrew a.
-          </a>{" "}
-          2024
-        </p>
-      </div>
+      <Footer color="#FBFADA"/>
     </div>
   );
 }

@@ -1,0 +1,60 @@
+h1{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    justify-content: center;
+    color: #12372A;
+}
+
+.header-button{
+    margin-inline-end: 3em;
+}
+
+.header-button > button{
+    border: none;
+    background-color: #12372A;
+    color: #FBFADA;
+    margin-inline: 1em;
+    height: 3em;
+    width: 7em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 0.5em;
+}
+
+.header-button > button:hover{
+    background-color: #FBFADA;
+    color: #12372A;
+    cursor: pointer;
+}
+
+.header-text{
+    margin-inline-start: 3em;
+}
+
+.header-text > h1{
+    font-size: 1.5em;
+}
+
+.header-text > p{
+    font-size: 0.9em;
+} 
+
+.header{
+    padding: 1em;
+}

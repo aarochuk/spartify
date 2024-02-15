@@ -1,7 +1,7 @@
 import React from "react";
 import "./SongCard.css";
-import essence from "./images/essence.png";
-import passionfruit from "./images/passionfruit.png";
+import essence from "../images/essence.png";
+import passionfruit from "../images/passionfruit.png";
 
 export default function SongCard(props) {
   function imagePicker() {
