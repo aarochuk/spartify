@@ -2,10 +2,9 @@ h1{
     margin: 0;
 }
 
-h1{
-    margin: 0;
+.header-text > Link{
+    text-decoration: none;
 }
-
 .header{
     display: flex;
     align-items: center;
@@ -24,7 +23,7 @@ h1{
     margin-inline-end: 3em;
 }
 
-.header-button > button{
+.header-button  .button{
     border: none;
     background-color: #12372A;
     color: #FBFADA;
@@ -37,7 +36,7 @@ h1{
     border-radius: 0.5em;
 }
 
-.header-button > button:hover{
+.header-button  .button:hover{
     background-color: #FBFADA;
     color: #12372A;
     cursor: pointer;

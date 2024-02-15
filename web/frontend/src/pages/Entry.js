@@ -1,14 +1,14 @@
 import React from "react";
 import "./Entry.css";
 import Header from "../components/Header";
-import SongCard from "../components/SongCard"
+import SongCard from "../components/SongCard";
 import play from "../images/play-store.png";
 import Footer from "../components/Footer";
 
 export default function App() {
   return (
     <div className="bodyHolder">
-      <Header color="#FBFADA"/>
+      <Header color="#FBFADA" />
       <div className="info">
         <div className="info-text">
           <h1>Democratising Party Music</h1>
@@ -29,7 +29,7 @@ export default function App() {
           <SongCard title="passionfruit" artist="Drake" genre="Hip-Hop" />
         </div>
       </div>
-      <Footer color="#FBFADA"/>
+      <Footer color="#FBFADA" />
     </div>
   );
 }

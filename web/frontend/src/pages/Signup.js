@@ -7,15 +7,13 @@ import spotify from "../images/spotify.png";
 export default function Signup() {
   return (
     <div className="body">
-      <Header />
+      <Header color="#12372A" />
       <div className="main">
         <div className="main-text">
           <h1>get the party started</h1>
           <p>Signup, host a party join a party and let the fun get started</p>
           <p>Already have an account? Login</p>
-          <div className="song-images">
-
-          </div>
+          <div className="song-images"></div>
         </div>
         <div className="form-holder">
           <p>For full features</p>
