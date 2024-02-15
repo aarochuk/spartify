@@ -1,3 +1,46 @@
 body{
     background-color: #FBFADA;
+    color: #12372A;
+}
+
+.main{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    background-color: #12372A;
+    color: #FBFADA;
+    height: 3em;
+    width: 14em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 0.5em;
+}
+
+form > button{
+    width: 7em;
+    margin-top: 1em;
+}
+
+.form-holder > button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form > input{
+    background-color: #E1F0DA;
+    border: none;
+    height: 3em;
+    width: 25em;
+    margin-block: 0.5em;
+    border-radius: 0.5em;
+    padding-inline-start: 1em;
+    font-size: 1em;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
