@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Entry from './pages/Entry';
 import Signup from './pages/Signup';
+import Main from "./pages/Main";
 
 
 export default function App(){
@@ -14,6 +15,7 @@ export default function App(){
             <Routes>
                 <Route index exact path="/" element={<Entry/>}/>
                 <Route exact path="/signup" element={<Signup/>}/>
+                <Route exact path="/main" element={<Main/>}/>
             </Routes>
         </Router>
     )

@@ -11,6 +11,7 @@ body{
 }
 
 button{
+    cursor: pointer;
     border: none;
     background-color: #12372A;
     color: #FBFADA;
