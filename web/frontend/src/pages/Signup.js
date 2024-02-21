@@ -17,14 +17,14 @@ export default function Signup() {
         .post("http://localhost:8080/register", { uname })
         .then((res) => {
           console.log(res.data);
-          navigate("/main");
+          navigate("/home");
         });
     } catch (e) {
       console.log(e);
     }
   }
   return (
-    <div className="body">
+    <div className="bodyHolder">
       <Header color="#12372A" />
       <div className="main">
         <div className="main-text">

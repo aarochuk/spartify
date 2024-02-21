@@ -1,6 +1,9 @@
-body{
+.bodyHolder{
+    height: 100vh;
+    width: 100vw;
     background-color: #FBFADA;
     color: #12372A;
+    
 }
 
 .main{
@@ -10,7 +13,7 @@ body{
     justify-content: space-around;
 }
 
-button{
+.bodyHolder button{
     cursor: pointer;
     border: none;
     background-color: #12372A;

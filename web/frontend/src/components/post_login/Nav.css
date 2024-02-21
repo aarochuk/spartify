@@ -1,0 +1,28 @@
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    margin: 0;
+    gap: 10%;
+    background-color: #565151;
+}
+
+.nav-bar > button{
+    cursor: pointer;
+    border: none;
+    background-color: #565151;
+    color: #FBFADA;
+    height: 3em;
+    width: 14em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 0.5em;
+}
+
+.active{
+    background-color: #3c3a3a !important;
+}
