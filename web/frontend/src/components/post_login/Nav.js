@@ -10,24 +10,48 @@ import music_active from "../../images/nav-buttons/music-active.png";
 import temp_img from "../../images/temp-img.png";
 import github from "../../images/github.png";
 import github_active from "../../images/github-active.png";
+import { Link } from "react-router-dom";
 
 export default function Nav(props) {
   const [gh, setGh] = useState(github);
-  const [navButtons, setNavButtons] = useState([home_active, party, music]);
+
+  var home_img = home;
+  var party_img = party;
+  var music_img = music;
+
+  if (props.active === "home") {
+    home_img = home_active;
+    party_img = party;
+    music_img = music;
+  } else if (props.active === "party") {
+    home_img = home;
+    party_img = party_active;
+    music_img = music;
+  } else {
+    home_img = home;
+    party_img = party;
+    music_img = music_active;
+  }
   return (
     <div className="nav-bar">
       <div className="user-img">
         <img src={temp_img} alt="" width="50%" />
       </div>
       <div className="nav-buttons">
-        <button className="active">
-          <img src={navButtons[0]} alt="" />
+        <button className={props.active === "home" ? "active" : ""}>
+          <Link to="/home">
+            <img src={home_img} alt="" />
+          </Link>
         </button>
-        <button>
-          <img src={navButtons[1]} alt="" />
+        <button className={props.active === "party" ? "active" : ""}>
+          <Link to="/party">
+            <img src={party_img} alt="" />
+          </Link>
         </button>
-        <button>
-          <img src={navButtons[2]} alt="" />
+        <button className={props.active === "mymusic" ? "active" : ""}>
+          <Link to="/mymusic">
+            <img src={music_img} alt="" />
+          </Link>
         </button>
       </div>
       <div className="github-holder">

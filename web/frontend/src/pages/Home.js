@@ -11,8 +11,6 @@ import jcole from "../images/jcole.png";
 import tiwa from "../images/tiwa.png";
 import essence from "../images/essence.png";
 import passionfruit from "../images/passionfruit.png";
-import litbonus from "../images/litbonus.png";
-import crenshaw from "../images/crenshaw.png";
 import Track from "../components/post_login/Track";
 
 export default function Home() {
