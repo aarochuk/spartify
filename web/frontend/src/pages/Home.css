@@ -7,3 +7,37 @@
     justify-content: space-between;
 }
 
+.playing-song{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95%;
+    background-color: #eeeeee;
+    border-radius: 4%;
+    width: 25%;
+    margin-inline-end: 1%;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    margin-inline-start: 10%;
+    gap: 5%
+}
+
+.top > p{
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.img-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
