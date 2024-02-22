@@ -1,0 +1,43 @@
+.track{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline-end: 5%;
+    margin: 3%;
+}
+
+.dets{
+    display: flex;
+    align-items: center;
+}
+
+.dets > img{
+    border-radius: 10%;
+}
+.dets > .right-size{
+    width: 7%;
+    height: 7%;
+    margin-inline-end: 3%;
+}
+
+.dets > .wrong-size{
+    width: 11%;
+    height: 11%;
+    margin-inline-end: 5%;
+
+}
+
+.dets p{
+    margin: 0;
+}
+
+.track-title{
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.track-artist{
+    font-size: 80%;
+    font-weight: 500;
+    margin-top: 3% !important;
+}

@@ -1,0 +1,21 @@
+.top-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-title > p{
+    font-weight: 700;
+}
+
+.top-title > div{
+    display: flex;
+    gap: 10%;
+    width: 50%;
+}
+
+.top-title > div > p:hover{
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
