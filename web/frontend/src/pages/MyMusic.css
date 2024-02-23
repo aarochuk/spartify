@@ -6,3 +6,26 @@
     height: 100vh;
     justify-content: space-between;
 }
+
+.ms{
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.header-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline-end: 5%;
+}
+
+.players, .organizers, .searchers{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.organizers > p{
+    font-size: 80%;
+    font-weight: 600;
+}
