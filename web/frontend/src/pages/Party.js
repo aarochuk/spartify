@@ -11,29 +11,34 @@ export default function Party() {
     <div className="main">
       <Nav active="party" />
       <div className="main-content">
-        <div>
-          <p>Join Party</p>
+        <div className="info">
+          <p className="info-text">
+            With spartify host parties and events and let guests decide what
+            they want to hear.
+            <br />
+            Join a party now or create a party to get fun started.
+          </p>
           <form>
-            <input type="text" placeholder="enter party code"/>
+            <input type="text" placeholder="enter party code" />
+            <br />
+            <button className="party-button">Join Party</button>
           </form>
-        </div>
-        <div>
-        <p>Get the fun started and give people the party code</p>
-          <p>
           <Link to="/thisparty">
-          <button className="party-button">Create Party</button>
-          </Link></p>
+            <button className="party-button">Create Party</button>
+          </Link>
         </div>
-        <div>
+        <div className="past-parties">
           <p>Recent Parties</p>
-          <div>
-            <img width="33%" src={essence} alt=""/>
-            <img width="33%" src={essence} alt=""/>
-            <img width="33%" src={essence} alt=""/>
-            <img width="33%" src={essence} alt=""/>
-            <img width="33%" src={essence} alt=""/>
-            <img width="33%" src={essence} alt=""/>
-            <img width="33%" src={essence} alt=""/>
+          <div className="prev-party-links">
+            <div className="prev-party">
+              <img width="20%" src={essence} alt="" />
+              <img width="20%" src={essence} alt="" />
+              <img width="20%" src={essence} alt="" />
+              <img width="20%" src={essence} alt="" />
+              <img width="20%" src={essence} alt="" />
+              <img width="20%" src={essence} alt="" />
+              <img width="20%" src={essence} alt="" />
+            </div>
           </div>
         </div>
       </div>
