@@ -4,6 +4,7 @@ import Nav from "../components/post_login/Nav";
 import SongDetails from "../components/post_login/SongDetails";
 import essence from "../images/essence.png";
 import passionfruit from "../images/passionfruit.png";
+import { Link } from "react-router-dom";
 
 export default function Party() {
   return (
@@ -18,7 +19,10 @@ export default function Party() {
         </div>
         <div>
         <p>Get the fun started and give people the party code</p>
-          <p><button>Create Party</button></p>
+          <p>
+          <Link to="/thisparty">
+          <button className="party-button">Create Party</button>
+          </Link></p>
         </div>
         <div>
           <p>Recent Parties</p>

@@ -6,3 +6,16 @@
     height: 100vh;
     justify-content: space-between;
 }
+
+.party-button{
+    border: none;
+    background-color: #FBFADA !important;
+    color: #12372A !important;
+    cursor: pointer;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 7em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}

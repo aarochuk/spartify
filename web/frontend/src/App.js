@@ -9,6 +9,7 @@ import Signup from './pages/Signup';
 import Home from "./pages/Home";
 import Party from "./pages/Party";
 import MyMusic from "./pages/MyMusic";
+import CurrParty from "./pages/CurrParty";
 
 export default function App(){
     return (
@@ -19,6 +20,7 @@ export default function App(){
                 <Route exact path="/home" element={<Home/>}/>
                 <Route exact path="/party" element={<Party/>}/>
                 <Route exact path="/mymusic" element={<MyMusic/>}/>
+                <Route exact path="/thisparty" element={<CurrParty/>}/>
             </Routes>
         </Router>
     )
