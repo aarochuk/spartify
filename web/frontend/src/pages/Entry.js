@@ -4,7 +4,6 @@ import Header from "../components/Header";
 import SongCard from "../components/SongCard";
 import play from "../images/play-store.png";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -18,9 +17,7 @@ export default function App() {
             party. Make playlists with friends and save music on local device
             all with spartify.
           </p>
-          <Link to="/signup">
-            <button className="get-started">Get Started</button>
-          </Link>
+          <button className="get-started">Get Started</button>
           <p>Download on</p>
           <button className="google-play">
             <img src={play} alt="" />
